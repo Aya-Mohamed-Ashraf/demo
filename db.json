@@ -22,7 +22,7 @@
          "id":"43278",
          "jobTitle":"Software Engineer",
          "birthDate":"28/10/1990",
-         "hiringDate":"1/1/2016",
+         "hiringDate":"2019-05-01T00:00:00.000Z",
          "homeAddress":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
          "homePhone":"+200000000",
          "cellPhone":"0120000000"
@@ -39,27 +39,98 @@
       }
    ],
    "request":[
-   {
-  "id": "1",
-  "from": "1/5/2019",
-  "to": "3/5/2019",
-  "typeId": "1",
-  "status": "approved",
-  "comment": "normal annual leave",
-  "approverId": "43276",
-  "approvedAt": "2019-04-23T18:25:43.511Z",
-  "createdAt": "2019-04-22T18:25:43.511Z"
-},
       {
-  "id": "2",
-  "from": "1/5/2019",
-  "to": "3/5/2019",
-  "typeId": "1",
-  "status": "approved",
-  "comment": "normal annual leave",
-  "approverId": "43276",
-  "approvedAt": "2019-04-23T18:25:43.511Z",
-  "createdAt": "2019-04-22T18:25:43.511Z"
-}
+         "id":"1",
+         "from":"2019-05-01T00:00:00.000Z",
+         "to":"2019-05-01T00:00:00.000Z",
+         "typeId":"1",
+         "status":"approved",
+         "comment":"normal annual leave",
+         "approverId":"43276",
+         "approvedAt":"2019-04-23T18:25:43.511Z",
+         "createdAt":"2019-04-22T18:25:43.511Z"
+      },
+      {
+         "id":"2",
+         "from":"2019-05-01T00:00:00.000Z",
+         "to":"2019-05-01T00:00:00.000Z",
+         "typeId":"1",
+         "status":"approved",
+         "comment":"normal annual leave",
+         "approverId":"43276",
+         "approvedAt":"2019-04-23T18:25:43.511Z",
+         "createdAt":"2019-04-22T18:25:43.511Z"
+      }
+   ],
+   "payslip":[
+      {
+         "id":1,
+         "issuedA":"2019-05-01T00:00:00.000Z",
+         "netPay":3450,
+         "grossPay":3150,
+         "insuranceCompanyShare":600,
+         "deductions":[
+            {
+               "amount":150,
+               "comment":"Employee Share"
+            },
+            {
+               "amount":100,
+               "comment":"Payroll Tax"
+            }
+         ],
+         "allowances":[
+            {
+               "amount":500,
+               "comment":"Transportaion allowance"
+            }
+         ]
+      },
+      {
+         "id":2,
+         "issuedA":"2019-05-01T00:00:00.000Z",
+         "netPay":3450,
+         "grossPay":3150,
+         "insuranceCompanyShare":600,
+         "deductions":[
+            {
+               "amount":150,
+               "comment":"Employee Share"
+            },
+            {
+               "amount":100,
+               "comment":"Payroll Tax"
+            }
+         ],
+         "allowances":[
+            {
+               "amount":500,
+               "comment":"Transportaion allowance"
+            }
+         ]
+      },
+      {
+         "id":3,
+         "issuedA":"2019-05-01T00:00:00.000Z",
+         "netPay":3450,
+         "grossPay":3150,
+         "insuranceCompanyShare":600,
+         "deductions":[
+            {
+               "amount":150,
+               "comment":"Employee Share"
+            },
+            {
+               "amount":100,
+               "comment":"Payroll Tax"
+            }
+         ],
+         "allowances":[
+            {
+               "amount":500,
+               "comment":"Transportaion allowance"
+            }
+         ]
+      }
    ]
 }
