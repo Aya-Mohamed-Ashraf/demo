@@ -1,14 +1,44 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+   "employee":[
+      {
+         "id":"43276",
+         "jobTitle":"Software Engineer",
+         "birthDate":"28/10/1990",
+         "hiringDate":"1/1/2016",
+         "homeAddress":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+         "homePhone":"+200000000",
+         "cellPhone":"0120000000"
+      },
+      {
+         "id":"43277",
+         "jobTitle":"Software Engineer",
+         "birthDate":"28/10/1990",
+         "hiringDate":"1/1/2016",
+         "homeAddress":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+         "homePhone":"+200000000",
+         "cellPhone":"0120000000"
+      },
+      {
+         "id":"43278",
+         "jobTitle":"Software Engineer",
+         "birthDate":"28/10/1990",
+         "hiringDate":"1/1/2016",
+         "homeAddress":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+         "homePhone":"+200000000",
+         "cellPhone":"0120000000"
+      }
+   ],
+   "requestType":[
+      {
+         "id":"1",
+         "name":"Annual Leave"
+      },
+      {
+         "id":"2",
+         "name":"Sick Leave"
+      }
+   ],
+   "profile":{
+      "name":"typicode"
+   }
 }
