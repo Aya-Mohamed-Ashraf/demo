@@ -65,7 +65,7 @@
    "payslip":[
       {
          "id":1,
-         "issuedA":"2019-05-01T00:00:00.000Z",
+         "issuedAt":"2019-05-01T00:00:00.000Z",
          "netPay":3450,
          "grossPay":3150,
          "insuranceCompanyShare":600,
@@ -88,7 +88,7 @@
       },
       {
          "id":2,
-         "issuedA":"2019-05-01T00:00:00.000Z",
+         "issuedAt":"2019-05-01T00:00:00.000Z",
          "netPay":3450,
          "grossPay":3150,
          "insuranceCompanyShare":600,
@@ -111,7 +111,7 @@
       },
       {
          "id":3,
-         "issuedA":"2019-05-01T00:00:00.000Z",
+         "issuedAt":"2019-05-01T00:00:00.000Z",
          "netPay":3450,
          "grossPay":3150,
          "insuranceCompanyShare":600,
