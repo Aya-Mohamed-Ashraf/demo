@@ -2,6 +2,8 @@
    "employee":[
       {
          "id":"43276",
+         "firstName": "Aya",
+         "lastName":"Ashraf",
          "jobTitle":"Software Engineer",
          "birthDate":"28/10/1990",
          "hiringDate":"1/1/2016",
@@ -11,6 +13,8 @@
       },
       {
          "id":"43277",
+          "firstName": "Bruce",
+         "lastName":"Porter",
          "jobTitle":"Software Engineer",
          "birthDate":"28/10/1990",
          "hiringDate":"1/1/2016",
@@ -20,6 +24,8 @@
       },
       {
          "id":"43278",
+          "firstName": "Ahmed",
+         "lastName":"Ashraf",
          "jobTitle":"Software Engineer",
          "birthDate":"28/10/1990",
          "hiringDate":"2019-05-01T00:00:00.000Z",
