@@ -68,10 +68,11 @@
          "createdAt":"2019-04-22T18:25:43.511Z"
       }
    ],
-   "payslip":[
+   "payslips":[
       {
          "id":1,
-         "issuedAt":"2019-05-01T00:00:00.000Z",
+         "paymentMonth":4,
+          "paymentYear":2020,
          "netPay":3450,
          "grossPay":3150,
          "insuranceCompanyShare":600,
@@ -94,7 +95,8 @@
       },
       {
          "id":2,
-         "issuedAt":"2019-05-01T00:00:00.000Z",
+          "paymentMonth":5,
+          "paymentYear":2020,
          "netPay":3450,
          "grossPay":3150,
          "insuranceCompanyShare":600,
@@ -117,7 +119,8 @@
       },
       {
          "id":3,
-         "issuedAt":"2019-05-01T00:00:00.000Z",
+          "paymentMonth":6,
+          "paymentYear":2020,
          "netPay":3450,
          "grossPay":3150,
          "insuranceCompanyShare":600,
