@@ -140,6 +140,78 @@
                "comment":"Transportaion allowance"
             }
          ]
-      }
+      },
+      {
+         "id":4,
+         "paymentMonth":7,
+          "paymentYear":2020,
+         "netPay":3450,
+         "grossPay":3150,
+         "insuranceCompanyShare":600,
+         "deductions":[
+            {
+               "amount":150,
+               "comment":"Employee Share"
+            },
+            {
+               "amount":100,
+               "comment":"Payroll Tax"
+            }
+         ],
+         "allowances":[
+            {
+               "amount":500,
+               "comment":"Transportaion allowance"
+            }
+         ]
+      },
+      {
+         "id":5,
+         "paymentMonth":8,
+          "paymentYear":2020,
+         "netPay":3450,
+         "grossPay":3150,
+         "insuranceCompanyShare":600,
+         "deductions":[
+            {
+               "amount":150,
+               "comment":"Employee Share"
+            },
+            {
+               "amount":100,
+               "comment":"Payroll Tax"
+            }
+         ],
+         "allowances":[
+            {
+               "amount":500,
+               "comment":"Transportaion allowance"
+            }
+         ]
+      },
+      {
+         "id":6,
+         "paymentMonth":9,
+          "paymentYear":2020,
+         "netPay":3450,
+         "grossPay":3150,
+         "insuranceCompanyShare":600,
+         "deductions":[
+            {
+               "amount":150,
+               "comment":"Employee Share"
+            },
+            {
+               "amount":100,
+               "comment":"Payroll Tax"
+            }
+         ],
+         "allowances":[
+            {
+               "amount":500,
+               "comment":"Transportaion allowance"
+            }
+         ]
+      },
    ]
 }
