@@ -71,194 +71,234 @@
    "payslips":[
       {
          "id":1,
-         "paymentMonth":4,
-          "paymentYear":2020,
+         "month":4,
+         "year":2020,
          "netPay":3450,
          "grossPay":3150,
-         "insuranceCompanyShare":600,
          "deductions":[
             {
-               "amount":150,
-               "comment":"Employee Share"
+               "type":"Insurance Employee Share",
+               "value":600
             },
             {
-               "amount":100,
-               "comment":"Payroll Tax"
+               "type":"Late",
+               "value":150
             }
          ],
-         "allowances":[
+         "earnings":[
             {
-               "amount":500,
-               "comment":"Transportaion allowance"
+               "type":"Transportaion allowance",
+               "value":150
+            }
+         ],
+         "information":[
+             {
+               "type":"Company Share",
+               "value":150
             }
          ]
       },
       {
          "id":2,
-          "paymentMonth":5,
-          "paymentYear":2020,
+         "month":5,
+         "year":2020,
          "netPay":3450,
          "grossPay":3150,
-         "insuranceCompanyShare":600,
          "deductions":[
             {
-               "amount":150,
-               "comment":"Employee Share"
+               "type":"Insurance Employee Share",
+               "value":600
             },
             {
-               "amount":100,
-               "comment":"Payroll Tax"
+               "type":"Late",
+               "value":150
             }
          ],
-         "allowances":[
+         "earnings":[
             {
-               "amount":500,
-               "comment":"Transportaion allowance"
+               "type":"Transportaion allowance",
+               "value":150
+            }
+         ],
+         "information":[
+             {
+               "type":"Company Share",
+               "value":150
             }
          ]
       },
       {
          "id":3,
-          "paymentMonth":6,
-          "paymentYear":2020,
+         "month":6,
+         "year":2020,
          "netPay":3450,
          "grossPay":3150,
-         "insuranceCompanyShare":600,
          "deductions":[
             {
-               "amount":150,
-               "comment":"Employee Share"
+               "type":"Insurance Employee Share",
+               "value":600
             },
             {
-               "amount":100,
-               "comment":"Payroll Tax"
+               "type":"Late",
+               "value":150
             }
          ],
-         "allowances":[
+         "earnings":[
             {
-               "amount":500,
-               "comment":"Transportaion allowance"
+               "type":"Transportaion allowance",
+               "value":150
+            }
+         ],
+         "information":[
+             {
+               "type":"Company Share",
+               "value":150
             }
          ]
       },
       {
          "id":4,
-         "paymentMonth":7,
-          "paymentYear":2020,
+         "month":7,
+         "year":2020,
          "netPay":3450,
          "grossPay":3150,
-         "insuranceCompanyShare":600,
          "deductions":[
             {
-               "amount":150,
-               "comment":"Employee Share"
+               "type":"Insurance Employee Share",
+               "value":600
             },
             {
-               "amount":100,
-               "comment":"Payroll Tax"
+               "type":"Late",
+               "value":150
             }
          ],
-         "allowances":[
+         "earnings":[
             {
-               "amount":500,
-               "comment":"Transportaion allowance"
+               "type":"Transportaion allowance",
+               "value":150
+            }
+         ],
+         "information":[
+             {
+               "type":"Company Share",
+               "value":150
             }
          ]
       },
       {
          "id":5,
-         "paymentMonth":8,
-          "paymentYear":2020,
+         "month":8,
+         "year":2020,
          "netPay":3450,
          "grossPay":3150,
-         "insuranceCompanyShare":600,
          "deductions":[
             {
-               "amount":150,
-               "comment":"Employee Share"
+               "type":"Insurance Employee Share",
+               "value":600
             },
             {
-               "amount":100,
-               "comment":"Payroll Tax"
+               "type":"Late",
+               "value":150
             }
          ],
-         "allowances":[
+         "earnings":[
             {
-               "amount":500,
-               "comment":"Transportaion allowance"
+               "type":"Transportaion allowance",
+               "value":150
+            }
+         ],
+         "information":[
+             {
+               "type":"Company Share",
+               "value":150
             }
          ]
       },
-      {
+     {
          "id":6,
-         "paymentMonth":9,
-          "paymentYear":2020,
+         "month":9,
+         "year":2020,
          "netPay":3450,
          "grossPay":3150,
-         "insuranceCompanyShare":600,
          "deductions":[
             {
-               "amount":150,
-               "comment":"Employee Share"
+               "type":"Insurance Employee Share",
+               "value":600
             },
             {
-               "amount":100,
-               "comment":"Payroll Tax"
+               "type":"Late",
+               "value":150
             }
          ],
-         "allowances":[
+         "earnings":[
             {
-               "amount":500,
-               "comment":"Transportaion allowance"
+               "type":"Transportaion allowance",
+               "value":150
+            }
+         ],
+         "information":[
+             {
+               "type":"Company Share",
+               "value":150
             }
          ]
       },
       {
          "id":7,
-         "paymentMonth":10,
-          "paymentYear":2020,
+         "month":10,
+         "year":2020,
          "netPay":3450,
          "grossPay":3150,
-         "insuranceCompanyShare":600,
          "deductions":[
             {
-               "amount":150,
-               "comment":"Employee Share"
+               "type":"Insurance Employee Share",
+               "value":600
             },
             {
-               "amount":100,
-               "comment":"Payroll Tax"
+               "type":"Late",
+               "value":150
             }
          ],
-         "allowances":[
+         "earnings":[
             {
-               "amount":500,
-               "comment":"Transportaion allowance"
+               "type":"Transportaion allowance",
+               "value":150
+            }
+         ],
+         "information":[
+             {
+               "type":"Company Share",
+               "value":150
             }
          ]
       },
       {
          "id":8,
-         "paymentMonth":11,
-          "paymentYear":2020,
+         "month":11,
+         "year":2020,
          "netPay":3450,
          "grossPay":3150,
-         "insuranceCompanyShare":600,
          "deductions":[
             {
-               "amount":150,
-               "comment":"Employee Share"
+               "type":"Insurance Employee Share",
+               "value":600
             },
             {
-               "amount":100,
-               "comment":"Payroll Tax"
+               "type":"Late",
+               "value":150
             }
          ],
-         "allowances":[
+         "earnings":[
             {
-               "amount":500,
-               "comment":"Transportaion allowance"
+               "type":"Transportaion allowance",
+               "value":150
+            }
+         ],
+         "information":[
+             {
+               "type":"Company Share",
+               "value":150
             }
          ]
-      }]
+      }
 }
