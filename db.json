@@ -1,304 +1,261 @@
 {
-   "employee":[
-      {
-         "id":"43276",
-         "firstName": "Aya",
-         "lastName":"Ashraf",
-         "jobTitle":"Software Engineer",
-         "birthDate":"1997-07-16T19:20:30.45+01:00",
-         "hiringDate":"1997-07-16T19:20:30.45+01:00",
-         "homeAddress":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-         "homePhone":"+200000000",
-         "cellPhone":"0120000000"
-      },
-      {
-         "id":"43277",
-          "firstName": "Bruce",
-         "lastName":"Porter",
-         "jobTitle":"Software Engineer",
-         "birthDate":"28/10/1990",
-         "hiringDate":"1/1/2016",
-         "homeAddress":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-         "homePhone":"+200000000",
-         "cellPhone":"0120000000"
-      },
-      {
-         "id":"43278",
-          "firstName": "Ahmed",
-         "lastName":"Ashraf",
-         "jobTitle":"Software Engineer",
-         "birthDate":"28/10/1990",
-         "hiringDate":"2019-05-01T00:00:00.000Z",
-         "homeAddress":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-         "homePhone":"+200000000",
-         "cellPhone":"0120000000"
-      }
-   ],
-   "requestType":[
-      {
-         "id":"1",
-         "name":"Annual Leave"
-      },
-      {
-         "id":"2",
-         "name":"Sick Leave"
-      }
-   ],
-   "request":[
-      {
-         "id":"1",
-         "from":"2019-05-01T00:00:00.000Z",
-         "to":"2019-05-01T00:00:00.000Z",
-         "typeId":"1",
-         "status":"approved",
-         "comment":"normal annual leave",
-         "approverId":"43276",
-         "approvedAt":"2019-04-23T18:25:43.511Z",
-         "createdAt":"2019-04-22T18:25:43.511Z"
-      },
-      {
-         "id":"2",
-         "from":"2019-05-01T00:00:00.000Z",
-         "to":"2019-05-01T00:00:00.000Z",
-         "typeId":"1",
-         "status":"approved",
-         "comment":"normal annual leave",
-         "approverId":"43276",
-         "approvedAt":"2019-04-23T18:25:43.511Z",
-         "createdAt":"2019-04-22T18:25:43.511Z"
-      }
-   ],
-   "payslips":[
-      {
-         "id":1,
-         "month":4,
-         "year":2020,
-         "netPay":3450,
-         "grossPay":3150,
-         "deductions":[
-            {
-               "type":"Insurance Employee Share",
-               "value":600
-            },
-            {
-               "type":"Late",
-               "value":150
-            }
-         ],
-         "earnings":[
-            {
-               "type":"Transportaion allowance",
-               "value":150
-            }
-         ],
-         "information":[
-             {
-               "type":"Company Share",
-               "value":150
-            }
-         ]
-      },
-      {
-         "id":2,
-         "month":5,
-         "year":2020,
-         "netPay":3450,
-         "grossPay":3150,
-         "deductions":[
-            {
-               "type":"Insurance Employee Share",
-               "value":600
-            },
-            {
-               "type":"Late",
-               "value":150
-            }
-         ],
-         "earnings":[
-            {
-               "type":"Transportaion allowance",
-               "value":150
-            }
-         ],
-         "information":[
-             {
-               "type":"Company Share",
-               "value":150
-            }
-         ]
-      },
-      {
-         "id":3,
-         "month":6,
-         "year":2020,
-         "netPay":3450,
-         "grossPay":3150,
-         "deductions":[
-            {
-               "type":"Insurance Employee Share",
-               "value":600
-            },
-            {
-               "type":"Late",
-               "value":150
-            }
-         ],
-         "earnings":[
-            {
-               "type":"Transportaion allowance",
-               "value":150
-            }
-         ],
-         "information":[
-             {
-               "type":"Company Share",
-               "value":150
-            }
-         ]
-      },
-      {
-         "id":4,
-         "month":7,
-         "year":2020,
-         "netPay":3450,
-         "grossPay":3150,
-         "deductions":[
-            {
-               "type":"Insurance Employee Share",
-               "value":600
-            },
-            {
-               "type":"Late",
-               "value":150
-            }
-         ],
-         "earnings":[
-            {
-               "type":"Transportaion allowance",
-               "value":150
-            }
-         ],
-         "information":[
-             {
-               "type":"Company Share",
-               "value":150
-            }
-         ]
-      },
-      {
-         "id":5,
-         "month":8,
-         "year":2020,
-         "netPay":3450,
-         "grossPay":3150,
-         "deductions":[
-            {
-               "type":"Insurance Employee Share",
-               "value":600
-            },
-            {
-               "type":"Late",
-               "value":150
-            }
-         ],
-         "earnings":[
-            {
-               "type":"Transportaion allowance",
-               "value":150
-            }
-         ],
-         "information":[
-             {
-               "type":"Company Share",
-               "value":150
-            }
-         ]
-      },
-     {
-         "id":6,
-         "month":9,
-         "year":2020,
-         "netPay":3450,
-         "grossPay":3150,
-         "deductions":[
-            {
-               "type":"Insurance Employee Share",
-               "value":600
-            },
-            {
-               "type":"Late",
-               "value":150
-            }
-         ],
-         "earnings":[
-            {
-               "type":"Transportaion allowance",
-               "value":150
-            }
-         ],
-         "information":[
-             {
-               "type":"Company Share",
-               "value":150
-            }
-         ]
-      },
-      {
-         "id":7,
-         "month":10,
-         "year":2020,
-         "netPay":3450,
-         "grossPay":3150,
-         "deductions":[
-            {
-               "type":"Insurance Employee Share",
-               "value":600
-            },
-            {
-               "type":"Late",
-               "value":150
-            }
-         ],
-         "earnings":[
-            {
-               "type":"Transportaion allowance",
-               "value":150
-            }
-         ],
-         "information":[
-             {
-               "type":"Company Share",
-               "value":150
-            }
-         ]
-      },
-      {
-         "id":8,
-         "month":11,
-         "year":2020,
-         "netPay":3450,
-         "grossPay":3150,
-         "deductions":[
-            {
-               "type":"Insurance Employee Share",
-               "value":600
-            },
-            {
-               "type":"Late",
-               "value":150
-            }
-         ],
-         "earnings":[
-            {
-               "type":"Transportaion allowance",
-               "value":150
-            }
-         ],
-         "information":[
-             {
-               "type":"Company Share",
-               "value":150
-            }
-         ]
-      }
+	"employee": [{
+			"id": "43276",
+			"firstName": "Aya",
+			"lastName": "Ashraf",
+			"jobTitle": "Software Engineer",
+			"birthDate": "1997-07-16T19:20:30.45+01:00",
+			"hiringDate": "1997-07-16T19:20:30.45+01:00",
+			"homeAddress": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+			"homePhone": "+200000000",
+			"cellPhone": "0120000000"
+		},
+		{
+			"id": "43277",
+			"firstName": "Bruce",
+			"lastName": "Porter",
+			"jobTitle": "Software Engineer",
+			"birthDate": "28/10/1990",
+			"hiringDate": "1/1/2016",
+			"homeAddress": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+			"homePhone": "+200000000",
+			"cellPhone": "0120000000"
+		},
+		{
+			"id": "43278",
+			"firstName": "Ahmed",
+			"lastName": "Ashraf",
+			"jobTitle": "Software Engineer",
+			"birthDate": "28/10/1990",
+			"hiringDate": "2019-05-01T00:00:00.000Z",
+			"homeAddress": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+			"homePhone": "+200000000",
+			"cellPhone": "0120000000"
+		}
+	],
+	"requestType": [{
+			"id": "1",
+			"name": "Annual Leave"
+		},
+		{
+			"id": "2",
+			"name": "Sick Leave"
+		}
+	],
+	"request": [{
+			"id": "1",
+			"from": "2019-05-01T00:00:00.000Z",
+			"to": "2019-05-01T00:00:00.000Z",
+			"typeId": "1",
+			"status": "approved",
+			"comment": "normal annual leave",
+			"approverId": "43276",
+			"approvedAt": "2019-04-23T18:25:43.511Z",
+			"createdAt": "2019-04-22T18:25:43.511Z"
+		},
+		{
+			"id": "2",
+			"from": "2019-05-01T00:00:00.000Z",
+			"to": "2019-05-01T00:00:00.000Z",
+			"typeId": "1",
+			"status": "approved",
+			"comment": "normal annual leave",
+			"approverId": "43276",
+			"approvedAt": "2019-04-23T18:25:43.511Z",
+			"createdAt": "2019-04-22T18:25:43.511Z"
+		}
+	],
+	"payslips": [{
+			"id": 1,
+			"month": 4,
+			"year": 2020,
+			"netPay": 3450,
+			"grossPay": 3150,
+			"deductions": [{
+					"type": "Insurance Employee Share",
+					"value": 600
+				},
+				{
+					"type": "Late",
+					"value": 150
+				}
+			],
+			"earnings": [{
+				"type": "Transportaion allowance",
+				"value": 150
+			}],
+			"information": [{
+				"type": "Company Share",
+				"value": 150
+			}]
+		},
+		{
+			"id": 2,
+			"month": 5,
+			"year": 2020,
+			"netPay": 3450,
+			"grossPay": 3150,
+			"deductions": [{
+					"type": "Insurance Employee Share",
+					"value": 600
+				},
+				{
+					"type": "Late",
+					"value": 150
+				}
+			],
+			"earnings": [{
+				"type": "Transportaion allowance",
+				"value": 150
+			}],
+			"information": [{
+				"type": "Company Share",
+				"value": 150
+			}]
+		},
+		{
+			"id": 3,
+			"month": 6,
+			"year": 2020,
+			"netPay": 3450,
+			"grossPay": 3150,
+			"deductions": [{
+					"type": "Insurance Employee Share",
+					"value": 600
+				},
+				{
+					"type": "Late",
+					"value": 150
+				}
+			],
+			"earnings": [{
+				"type": "Transportaion allowance",
+				"value": 150
+			}],
+			"information": [{
+				"type": "Company Share",
+				"value": 150
+			}]
+		},
+		{
+			"id": 4,
+			"month": 7,
+			"year": 2020,
+			"netPay": 3450,
+			"grossPay": 3150,
+			"deductions": [{
+					"type": "Insurance Employee Share",
+					"value": 600
+				},
+				{
+					"type": "Late",
+					"value": 150
+				}
+			],
+			"earnings": [{
+				"type": "Transportaion allowance",
+				"value": 150
+			}],
+			"information": [{
+				"type": "Company Share",
+				"value": 150
+			}]
+		},
+		{
+			"id": 5,
+			"month": 8,
+			"year": 2020,
+			"netPay": 3450,
+			"grossPay": 3150,
+			"deductions": [{
+					"type": "Insurance Employee Share",
+					"value": 600
+				},
+				{
+					"type": "Late",
+					"value": 150
+				}
+			],
+			"earnings": [{
+				"type": "Transportaion allowance",
+				"value": 150
+			}],
+			"information": [{
+				"type": "Company Share",
+				"value": 150
+			}]
+		},
+		{
+			"id": 6,
+			"month": 9,
+			"year": 2020,
+			"netPay": 3450,
+			"grossPay": 3150,
+			"deductions": [{
+					"type": "Insurance Employee Share",
+					"value": 600
+				},
+				{
+					"type": "Late",
+					"value": 150
+				}
+			],
+			"earnings": [{
+				"type": "Transportaion allowance",
+				"value": 150
+			}],
+			"information": [{
+				"type": "Company Share",
+				"value": 150
+			}]
+		},
+		{
+			"id": 7,
+			"month": 10,
+			"year": 2020,
+			"netPay": 3450,
+			"grossPay": 3150,
+			"deductions": [{
+					"type": "Insurance Employee Share",
+					"value": 600
+				},
+				{
+					"type": "Late",
+					"value": 150
+				}
+			],
+			"earnings": [{
+				"type": "Transportaion allowance",
+				"value": 150
+			}],
+			"information": [{
+				"type": "Company Share",
+				"value": 150
+			}]
+		},
+		{
+			"id": 8,
+			"month": 11,
+			"year": 2020,
+			"netPay": 3450,
+			"grossPay": 3150,
+			"deductions": [{
+					"type": "Insurance Employee Share",
+					"value": 600
+				},
+				{
+					"type": "Late",
+					"value": 150
+				}
+			],
+			"earnings": [{
+				"type": "Transportaion allowance",
+				"value": 150
+			}],
+			"information": [{
+				"type": "Company Share",
+				"value": 150
+			}]
+		}
+	]
 }
