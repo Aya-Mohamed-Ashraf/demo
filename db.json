@@ -80,13 +80,23 @@
 					"id":2,
 					"type": "Late",
 					"value": 150
+				},
+				{
+					"id":3,
+					"type": "Late",
+					"value": 150
 				}
 			],
 			"earnings": [{
 				"id":1,
 				"type": "Transportaion allowance",
 				"value": 150
-			}],
+			},
+				    {
+					"id":2,
+					"type": "Bonus",
+					"value": 150
+				}],
 			"information": [{
 				"id":1,
 				"type": "Company Share",
@@ -114,12 +124,22 @@
 				"id":1,
 				"type": "Transportaion allowance",
 				"value": 150
+			},
+				    {
+				"id":2,
+				"type": "Allowance",
+				"value": 450
 			}],
 			"information": [{
 				"id":1,
 				"type": "Company Share",
 				"value": 150
-			}]
+			},
+				{
+					"id":2,
+					"type": "Late",
+					"value": 90
+				}]
 		},
 		{
 			"id": 3,
