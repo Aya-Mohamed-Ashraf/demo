@@ -305,6 +305,44 @@
 				"type": "Company Share",
 				"value": 150
 			}]
+		},
+		     {
+			"id": 9,
+			"month": 3,
+			"year": 2020,
+			"netPay": 3450,
+			"grossPay": 3150,
+			"deductions": [{
+				"id":1,
+					"type": "Insurance Employee Share",
+					"value": 600
+				},
+				{
+					"id":2,
+					"type": "Late",
+					"value": 150
+				},
+				{
+					"id":3,
+					"type": "Late",
+					"value": 150
+				}
+			],
+			"earnings": [{
+				"id":1,
+				"type": "Transportaion allowance",
+				"value": 150
+			},
+				    {
+					"id":2,
+					"type": "Bonus",
+					"value": 150
+				}],
+			"information": [{
+				"id":1,
+				"type": "Company Share",
+				"value": 150
+			}]
 		}
 	]
 }
